@@ -9,3 +9,7 @@ Esse projeto, tem como objetivo criar um projeto de microfrontends usando module
 - [dashboard-mfe](https://github.com/william-camasil/dashboard-mfe)
 - [cadastro-endereco-mfe](https://github.com/william-camasil/cadastro-pessoa-juridica-mfe)
 - [cadastro-pessoa-fisica-mfe](https://github.com/william-camasil/cadastro-pessoa-fisica-mfe?tab=readme-ov-file#cadastro-pessoa-fisica-mfe)
+
+## Links
+
+[Referência para desenvolvimento](https://github.com/william-camasil/home-app-fed)

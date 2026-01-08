@@ -47,6 +47,10 @@ module.exports = {
       remotes: {
         login_mfe: "login_mfe@http://localhost:3001/remoteEntry.js", // componentes/telas compartilhados com o orquestrador
         dashboard_mfe: "dashboard_mfe@http://localhost:3002/remoteEntry.js",
+        cadastro_pessoa_juridica_mfe:
+          "cadastro_pessoa_juridica_mfe@http://localhost:3003/remoteEntry.js",
+        cadastro_pessoa_fisica_mfe:
+          "cadastro_pessoa_fisica_mfe@http://localhost:3004/remoteEntry.js",
       },
       shared: {
         // and shared

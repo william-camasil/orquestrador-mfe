@@ -1,10 +1,10 @@
 .orquestrador {
   text-align: center;
-  background-color: lightcoral;
+  background-color: darkgrey;
   padding: 30px;
   height: 500px;
 }
 
 .orquestrador-p {
-  color: white;
+  color: black;
 }

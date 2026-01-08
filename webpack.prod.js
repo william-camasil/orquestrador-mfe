@@ -46,6 +46,10 @@ module.exports = {
           "login_mfe@https://s3-mfe-poc.s3.us-east-1.amazonaws.com/login-mfe/remoteEntry.js",
         dashboard_mfe:
           "dashboard_mfe@https://s3-mfe-poc.s3.us-east-1.amazonaws.com/dashboard-mfe/remoteEntry.js",
+        cadastro_pessoa_juridica_mfe:
+          "cadastro_pessoa_juridica_mfe@https://s3-mfe-poc.s3.us-east-1.amazonaws.com/cadastro-pessoa-juridica-mfe/remoteEntry.js",
+        cadastro_pessoa_fisica_mfe:
+          "cadastro_pessoa_fisica_mfe@https://s3-mfe-poc.s3.us-east-1.amazonaws.com/cadastro-pessoa-fisica-mfe/remoteEntry.js",
       },
       shared: {
         // and shared

@@ -52,18 +52,9 @@ module.exports = {
           "cadastro_pessoa_fisica_mfe@https://s3-mfe-poc.s3.us-east-1.amazonaws.com/cadastro-pessoa-fisica-mfe/remoteEntry.js",
       },
       shared: {
-        // and shared
-        ...dependencies, // other dependencies
-        react: {
-          // react
-          singleton: true,
-          requiredVersion: dependencies["react"],
-        },
-        "react-dom": {
-          // react-dom
-          singleton: true,
-          requiredVersion: dependencies["react-dom"],
-        },
+        react: { singleton: true, eager: true },
+        "react-dom": { singleton: true, eager: true },
+        "react-router-dom": { singleton: true },
       },
     }),
   ],

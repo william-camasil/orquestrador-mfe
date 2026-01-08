@@ -53,18 +53,9 @@ module.exports = {
           "cadastro_pessoa_fisica_mfe@http://localhost:3004/remoteEntry.js",
       },
       shared: {
-        // and shared
-        ...dependencies, // other dependencies
-        react: {
-          // react
-          singleton: true,
-          requiredVersion: dependencies["react"],
-        },
-        "react-dom": {
-          // react-dom
-          singleton: true,
-          requiredVersion: dependencies["react-dom"],
-        },
+        react: { singleton: true, eager: true },
+        "react-dom": { singleton: true, eager: true },
+        "react-router-dom": { singleton: true },
       },
     }),
   ],
